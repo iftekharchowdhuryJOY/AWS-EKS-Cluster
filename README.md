@@ -5,7 +5,6 @@
 This project provisions a managed **Kubernetes (EKS)** cluster on AWS using Terraform. It demonstrates the ability to orchestrate complex container workloads in a cloud-native environment.
 
 The cluster allows for the deployment of microservices (like the FastAPI app from Project 6), exposing them via AWS Load Balancers, and scaling them across multiple worker nodes.
-
 ## 🏗 Architecture
 
 * **VPC Module:** A custom VPC created specifically for EKS, with public/private subnets and NAT Gateways.
